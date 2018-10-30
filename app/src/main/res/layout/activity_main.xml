@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screenbg"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shop_logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="80sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_first_line"
+            android:textSize="22sp"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textColor="@color/colorDarkRed"
+            android:layout_marginTop="80sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_second_line"
+            android:textSize="20sp"
+            android:textColor="@color/colorRed"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnloginbg"
+            android:layout_marginTop="80sp"
+            android:text="@string/btn_login"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/btnUserLogin"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnsignupbg"
+            android:layout_marginTop="10sp"
+            android:textSize="20sp"
+            android:text="@string/btn_user_signup"
+            android:textColor="@color/colorWhite"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
